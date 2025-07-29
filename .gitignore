@@ -242,5 +242,5 @@ Thumbs.db
 # Ignore all .del files
 **/*.del
 
-# All PyCharm's .idea folder
-.idea/
+# All PyCharm's .idea folders
+**/.idea/*
