@@ -14,6 +14,11 @@
 * **Customizable Output**: Allows customization of the structure and content of the generated Markdown file.
 * **Command-Line Interface**: Simple CLI for easy execution and integration into workflows.
 
+## Requirements
+
+* Python 3.x
+* No additional external dependencies. Standard libraries used include `json`, `argparse`, `pathlib`, and `os`.
+
 ## Usage
 
 Run the script using the following command:
@@ -39,7 +44,7 @@ This command generates a `documentation.md` file from `model.json` and includes 
 1. **Load JSON**: The script loads the OntoUML JSON export from the specified path using the `load_json` function.
 2. **Index Diagrams by Owner**: The `index_diagrams_by_owner` function organizes diagrams by their owner element (e.g., packages or classes).
 3. **Find Images**: The script looks for corresponding images in the `images_folder` directory using the `find_image_for_element` function. It checks for image files with the extensions `.png`, `.jpg`, or `.jpeg`.
-4. **Process Packages and Diagrams**: The script processes each package and its associated diagrams, generating appropriate Markdown headers, descriptions, and image links. This is handled by the `process_package` function.
+4. **Process Packages and Diagrams**: The script processes each package and its associated diagrams, generating appropriate Markdown headers, descriptions, and image links. This is handled by the `process_package` function. The function recursively handles sub-packages.
 5. **Generate Markdown**: The script compiles the extracted data into a Markdown file using the `generate_markdown` function, linking images where applicable.
 6. **Markdown Formatting**: For each package and diagram, the script applies appropriate heading levels based on their hierarchical structure and appends descriptions and images where available.
 
