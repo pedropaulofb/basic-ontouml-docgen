@@ -1,0 +1,166 @@
+{
+  "id" : "Qj.sqhmGAqAEHABO",
+  "name" : "MyProject",
+  "description" : null,
+  "type" : "Project",
+  "model" : {
+    "id" : "Qj.sqhmGAqAEHABO_root",
+    "name" : "MyProject",
+    "description" : null,
+    "type" : "Package",
+    "propertyAssignments" : null,
+    "contents" : [ {
+      "id" : "QfUcqhmGAqAEHAW6",
+      "name" : "MyOntology1",
+      "description" : "MyOntology1 description",
+      "type" : "Package",
+      "propertyAssignments" : null,
+      "contents" : [ {
+        "id" : "nlIGqhmGAqAEHAaO",
+        "name" : "MyOntology1Sub1",
+        "description" : "MyOntology1Sub1 description",
+        "type" : "Package",
+        "propertyAssignments" : null,
+        "contents" : [ {
+          "id" : "DF8GqhmGAqAEHAav",
+          "name" : "Class",
+          "description" : null,
+          "type" : "Class",
+          "propertyAssignments" : null,
+          "stereotype" : null,
+          "isAbstract" : false,
+          "isDerived" : false,
+          "properties" : null,
+          "isExtensional" : null,
+          "isPowertype" : null,
+          "order" : null,
+          "literals" : null,
+          "restrictedTo" : null
+        } ]
+      }, {
+        "id" : "UpycqhmGAqAEHAXf",
+        "name" : "Class1",
+        "description" : null,
+        "type" : "Class",
+        "propertyAssignments" : null,
+        "stereotype" : null,
+        "isAbstract" : false,
+        "isDerived" : false,
+        "properties" : null,
+        "isExtensional" : null,
+        "isPowertype" : null,
+        "order" : null,
+        "literals" : null,
+        "restrictedTo" : null
+      }, {
+        "id" : "D16cqhmGAqAEHAYB",
+        "name" : "Class2",
+        "description" : null,
+        "type" : "Class",
+        "propertyAssignments" : null,
+        "stereotype" : null,
+        "isAbstract" : false,
+        "isDerived" : false,
+        "properties" : null,
+        "isExtensional" : null,
+        "isPowertype" : null,
+        "order" : null,
+        "literals" : null,
+        "restrictedTo" : null
+      } ]
+    }, {
+      "id" : "jg8cqhmGAqAEHAXD",
+      "name" : "MyOntology2",
+      "description" : "MyOntology2 description",
+      "type" : "Package",
+      "propertyAssignments" : null,
+      "contents" : null
+    } ]
+  },
+  "diagrams" : [ {
+    "id" : "OfScqhmGAqAEHAXL",
+    "name" : "MyOntology1ClassDiagram1",
+    "description" : "MyOntology1ClassDiagram1 description",
+    "type" : "Diagram",
+    "owner" : {
+      "id" : "QfUcqhmGAqAEHAW6",
+      "type" : "Package"
+    },
+    "contents" : [ {
+      "id" : "4pycqhmGAqAEHAXe",
+      "type" : "ClassView",
+      "modelElement" : {
+        "id" : "UpycqhmGAqAEHAXf",
+        "type" : "Class"
+      },
+      "shape" : {
+        "id" : "4pycqhmGAqAEHAXe_shape",
+        "type" : "Rectangle",
+        "x" : 312,
+        "y" : 274,
+        "width" : 80,
+        "height" : 40
+      }
+    } ]
+  }, {
+    "id" : "7LacqhmGAqAEHAXt",
+    "name" : "MyOntology1ClassDiagram2",
+    "description" : "MyOntology1ClassDiagram2 description",
+    "type" : "Diagram",
+    "owner" : {
+      "id" : "QfUcqhmGAqAEHAW6",
+      "type" : "Package"
+    },
+    "contents" : [ {
+      "id" : "D16cqhmGAqAEHAYA",
+      "type" : "ClassView",
+      "modelElement" : {
+        "id" : "D16cqhmGAqAEHAYB",
+        "type" : "Class"
+      },
+      "shape" : {
+        "id" : "D16cqhmGAqAEHAYA_shape",
+        "type" : "Rectangle",
+        "x" : 326,
+        "y" : 262,
+        "width" : 80,
+        "height" : 40
+      }
+    } ]
+  }, {
+    "id" : "qy2cqhmGAqAEHAYS",
+    "name" : "MyOntology2ClassDiagram1",
+    "description" : "MyOntology2ClassDiagram1 description",
+    "type" : "Diagram",
+    "owner" : {
+      "id" : "jg8cqhmGAqAEHAXD",
+      "type" : "Package"
+    },
+    "contents" : [ ]
+  }, {
+    "id" : "Ps8GqhmGAqAEHAab",
+    "name" : "MyOntology1Sub1ClassDiagram",
+    "description" : "MyOntology1Sub1ClassDiagram description",
+    "type" : "Diagram",
+    "owner" : {
+      "id" : "nlIGqhmGAqAEHAaO",
+      "type" : "Package"
+    },
+    "contents" : [ {
+      "id" : "9F8GqhmGAqAEHAau",
+      "type" : "ClassView",
+      "modelElement" : {
+        "id" : "DF8GqhmGAqAEHAav",
+        "type" : "Class"
+      },
+      "shape" : {
+        "id" : "9F8GqhmGAqAEHAau_shape",
+        "type" : "Rectangle",
+        "x" : 485,
+        "y" : 401,
+        "width" : 80,
+        "height" : 40
+      }
+    } ]
+  } ]
+}
