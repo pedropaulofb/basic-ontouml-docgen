@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Visual Paradigm Temporary Files
+**/*vpp.bak*
+**/*vpp.lck*
+
+# Microsoft Office temporary files
+~$*
+*.tmp
+*.bak
+*.wbk
+*.asd
+*.lnk
+*.lock
+
+# Office backup and autosave files
+*.tmp
+*.log
+*.ds_store
+*.sln.docstates
+
+# Thumbnails and previews
+Thumbs.db
+*.lnk
+
+# Protege
+**/catalog-v*.xml
+
+# Ignore all .bat files except those inside the /script folder
+*.bat
+!script/*.bat
+
+# Ignore all diff.path files
+**/diff.path
+
+# Ignore all .del files
+**/*.del
